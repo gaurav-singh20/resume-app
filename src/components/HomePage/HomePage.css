@@ -1,0 +1,68 @@
+.homepage_container{
+    display: flex;
+    align-items: center;
+    /* margin: 100px 0; */
+    height: 70vh;
+}
+
+.homepage_left{
+    flex: 0.6;
+    /* padding-right: 40px; */
+}
+
+.homepage_left_p1{
+    font-size: 22px;
+}
+
+.hi_span{
+    color: red;
+}
+
+.homepage_left_p2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.homepage_left_p3{
+    font-size: 30px;
+}
+
+.homepage_left_discription{
+    font-size: 13px;
+}
+
+.homepage_icons{
+    height: 25px;
+    margin: 10px 20px 10px 0;
+}
+
+.homepage_left_button{
+    /* margin-top: 25px; */
+    border: 0px solid;
+    padding: 10px;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+.homepage_left_button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: red;
+}
+
+.homepage_left_button:active{
+    background-color: rgba(255, 0, 0, 0.263);
+}
+
+.homepage_right{
+    display: flex;
+    flex: 0.4;
+    justify-content: center;
+
+    border-right: 3px solid red;
+}
+
+.homepage_right > img {
+    width: 60%;
+}

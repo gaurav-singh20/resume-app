@@ -1,0 +1,37 @@
+.navbar_container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_left{
+    font-size: 26px;
+    font-weight: 700;
+    color: red;
+    /* color: beige; */
+}
+
+.navbar_right{
+    display: flex;
+    /* justify-content: space-around;
+    flex-grow: 0.3; */
+}
+
+.navbar_right > p{
+    margin: 4px 5px;
+    color: red;
+    padding: 4px 10px;
+    font-size: 15px;
+}
+
+.navbar_right > p:hover{
+    background-color: red;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.navbar_right > p:active{
+    background-color: #48404026;
+}
