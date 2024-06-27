@@ -1,9 +1,18 @@
 .project_box_container {
     /* width: 550px; */
-    margin: 20px;
-    box-shadow: 0 15px 15px grey;
+    margin: 50px 60px;
+    box-shadow: 0 15px 15px rgb(25, 24, 24);
     padding: 15px;
-    width: 600px;
+    width: 480px;
+    transition: width 0.8s, box-shadow 0.8s;
+    background-color: rgba(61, 28, 28, 0.3);
+
+}
+
+.project_box_container:hover{
+    box-shadow: 0 15px 15px rgb(123, 120, 120);
+    width: 510px;
+    /* cursor: pointer; */
 }
 
 .project_box_image_container > img {
@@ -18,6 +27,7 @@
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+    padding: 10px 0;
     /* color: red; */
 }
 
@@ -33,7 +43,6 @@
 
 .project_box_link > span{
     font-weight: 700;
-    color: red;
     margin-right: 10px;
 }
 

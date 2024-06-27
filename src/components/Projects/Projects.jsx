@@ -1,15 +1,41 @@
 import { projectData } from '../../constants';
 import ProjectBox from './ProjectBox/ProjectBox';
 import './Projects.css' ;
+import {motion} from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+
+const container_x = (d) => ({
+    hidden: { x:-400,opacity: 0 },
+    visible: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            delay: d,
+            duration: 0.3
+        }
+    }
+})
 
 
 function Projects() {
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.1,
+    });
 
 
-
-    return <div>
-        <p className="projects_title">Projects</p>
-        <div className='projects_box_container'>
+    return <div className='project_box'>
+        <motion.p 
+        ref={ref}
+        variants={container_x(0.4)}
+        initial='hidden'
+        animate={inView ? 'visible' : 'hidden'}
+        className="projects_title">Projects</motion.p>
+        <motion.div 
+        ref={ref}
+        variants={container_x(0.2)}
+        initial='hidden'
+        animate={inView ? 'visible' : 'hidden'} className='projects_box_container'>
 
             {
                 projectData.map((project, index) => (
@@ -22,7 +48,7 @@ function Projects() {
                     />
                 )
             )}
-        </div>
+        </motion.div>
     </div>
 }
 

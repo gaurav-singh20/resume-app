@@ -2,39 +2,47 @@ import jsIcon from '../assets/jsIcon.png'
 import cppIcon from '../assets/cppIcon.png'
 import htmlIcon from '../assets/htmlIcon.png'
 import cssIcon from '../assets/cssIcon.png'
+import { delay } from 'framer-motion'
 
 
 export const TechStakeData=[
     {
         ImageTitle: 'javascript',
-        ImageSrc: jsIcon
+        ImageSrc: jsIcon,
+        delay:0.8
     },
     {
         ImageTitle: 'c++',
-        ImageSrc: cppIcon
+        ImageSrc: cppIcon,
+        delay:0.9
     },
     {
         ImageTitle: 'html',
-        ImageSrc: htmlIcon
+        ImageSrc: htmlIcon,
+        delay:1
     },
     {
         ImageTitle: 'css',
-        ImageSrc: cssIcon
+        ImageSrc: cssIcon,
+        delay:1.1
     }
 ]
 
 export const TechStakeData2=[
     {
         ImageTitle: 'c++',
-        ImageSrc: cppIcon
+        ImageSrc: cppIcon,
+        delay:1.2
     },
     {
         ImageTitle: 'html',
-        ImageSrc: htmlIcon
+        ImageSrc: htmlIcon,
+        delay:1.3
     },
     {
         ImageTitle: 'css',
-        ImageSrc: cssIcon
+        ImageSrc: cssIcon,
+        delay:1.4
     }
 ]
 

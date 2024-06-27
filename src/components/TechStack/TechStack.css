@@ -1,11 +1,13 @@
 .techstack_container{
     height: 70vh;
+    padding: 0 5%;
 }
 
 .techstack_title{
     font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .techstack_icon_container{

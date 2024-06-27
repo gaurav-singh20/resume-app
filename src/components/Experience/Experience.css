@@ -9,5 +9,11 @@
     text-align: center;
     font-size: 30px;
     font-weight: 600;
-    margin: 50px 0;
+    margin-bottom: 60px;
+}
+
+.experience_container{
+    padding: 0 8%;
+    /* height: 70vh; */
+    margin-bottom: 150px;
 }

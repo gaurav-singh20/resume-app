@@ -4,12 +4,43 @@ import githubIcon from '../../assets/githubIcon.png'
 import twitterIcon from '../../assets/twitterIcon.png'
 import linkedinIcon from '../../assets/linkedinIcon.png'
 
+import { motion } from 'framer-motion';
+
+const container_x = (delay) => ({
+    hidden: { x:-100,opacity: 0 },
+    visible: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            delay: delay,
+            duration: 0.5
+        }
+    }
+})
+
+const container_y = (delay) => ({
+    hidden: { y:-100,opacity: 0 },
+    visible: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            delay: delay,
+            duration: 0.5
+        }
+    }
+})
 
 function HomePage(){
     return(
         <div className='homepage_container'>
-            <div className='homepage_left'>
-                <p className='homepage_left_p1'>
+            <motion.div 
+            variants={container_x(0.3)}
+            initial='hidden'
+            animate='visible'
+            className='homepage_left'>
+                <p 
+                
+                className='homepage_left_p1'>
                     <span className='hi_span'>Hi,</span> My name is
                 </p>
 
@@ -55,11 +86,15 @@ function HomePage(){
                     <button className='homepage_left_button'>Get in touch</button>
                 </a>
                 
-            </div>
+            </motion.div>
 
-            <div className='homepage_right'>
+            <motion.div 
+            variants={container_y(0.6)}
+            initial='hidden'
+            animate='visible'
+            className='homepage_right'>
                 <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" alt="profilePicture" />
-            </div>
+            </motion.div>
         </div>
     );
 }
