@@ -10,9 +10,10 @@
 }
 
 .project_box_container:hover{
-    box-shadow: 0 15px 15px rgb(123, 120, 120);
+    /* box-shadow: 0 15px 15px rgb(123, 120, 120); */
     width: 510px;
     /* cursor: pointer; */
+    /* transform: scale(1.1); */
 }
 
 .project_box_image_container{

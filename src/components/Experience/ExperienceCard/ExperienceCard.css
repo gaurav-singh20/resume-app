@@ -11,7 +11,7 @@
 
 .ex_card_container:hover {
     transform: translateY(-10px);
-    box-shadow: -8px 12px 24px 0px rgba(0, 0, 0, 0.7); 
+    box-shadow: 0 0 10px 0 rgba(252, 245, 245, 0.5);
 }
 
 .ex_card_logo_container{
@@ -30,6 +30,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .ex_card_subtitle{
