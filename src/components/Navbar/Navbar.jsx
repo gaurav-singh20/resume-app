@@ -1,9 +1,12 @@
 import './Navbar.css';
 import {navItems,NAV_TITLE} from '../../constants/index'
+import { Link } from 'react-scroll';
 
 function NavOptions(props){
   return(
-    <p>{props.itemName}</p>
+    <Link to={props.itemName.toLowerCase()} smooth={true} duration={500}>
+      <p>{props.itemName}</p>
+    </Link>
   )
 }
 

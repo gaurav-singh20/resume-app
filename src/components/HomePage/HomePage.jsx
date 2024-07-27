@@ -32,7 +32,7 @@ const container_y = (delay) => ({
 
 function HomePage(){
     return(
-        <div className='homepage_container'>
+        <div id='about' className='homepage_container'>
             <motion.div 
             variants={container_x(0.3)}
             initial='hidden'

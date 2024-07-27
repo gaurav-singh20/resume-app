@@ -35,7 +35,7 @@ const container_x = (delay) => ({
 
 function TechStack(){
     return(
-        <div className="techstack_container">
+        <div id='tools' className="techstack_container">
             <motion.p 
             variants={container_x(1.8)}
             initial='hidden'

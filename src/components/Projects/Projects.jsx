@@ -35,7 +35,7 @@ function Projects() {
     });
 
 
-    return <div className='project_box'>
+    return <div id='projects' className='project_box'>
         <motion.p 
         ref={ref}
         variants={container_x(0.2)}

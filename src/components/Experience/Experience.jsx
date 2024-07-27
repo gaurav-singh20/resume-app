@@ -40,7 +40,7 @@ function Experience(){
     const iconImages = [js,cpp,css]
 
     return(
-        <div className="experience_container">
+        <div id='experience' className="experience_container">
             <motion.p 
             ref={ref}
             variants={container_y(0.4)}
