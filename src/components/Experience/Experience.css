@@ -18,3 +18,13 @@
     margin-bottom: 150px;
 }
 
+
+@media (max-width: 768px) { .experience_cards_container { flex-direction: column; align-items: flex-start; justify-content: flex-start; }
+
+.experience_title { font-size: 24px; margin-bottom: 40px; }
+
+.experience_container { padding: 0 5%; margin-bottom: 100px; } }@media (max-width: 768px) { .experience_cards_container { flex-direction: column; align-items: flex-start; justify-content: flex-start; }
+
+.experience_title { font-size: 24px; margin-bottom: 40px; }
+
+.experience_container { padding: 0 5%; margin-bottom: 100px; } }

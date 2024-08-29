@@ -28,6 +28,10 @@ function Navbar() {
         })
 
         }
+
+        <a href="tel:+1234567890" className='no-underline'>
+          <p>Contact</p>
+        </a>
       </div>
     </div>
   );

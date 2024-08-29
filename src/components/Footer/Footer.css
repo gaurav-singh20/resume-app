@@ -18,3 +18,18 @@
     font-size: 14px;
     margin-right: 40px;
 }
+
+@media (max-width: 768px) {
+    .footer_text_left{
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .footer_text_right{
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+    
+}

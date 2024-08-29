@@ -26,6 +26,7 @@
 
 .homepage_left_p3{
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .homepage_left_discription{
@@ -67,3 +68,57 @@
 .homepage_right > img {
     width: 60%;
 }
+
+
+@media (max-width: 768px) {
+    .homepage_container {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 0;
+    }
+  
+    .homepage_left {
+      flex: 1;
+      padding: 10px 10px;
+      margin: 20px 0;
+    }
+  
+    .homepage_left_p1 {
+      font-size: 18px;
+    }
+  
+    .homepage_left_p2 {
+      font-size: 36px;
+    }
+  
+    .homepage_left_p3 {
+      font-size: 24px;
+    }
+  
+    .homepage_left_discription {
+      font-size: 12px;
+    }
+  
+    .homepage_icons {
+      height: 20px;
+    }
+  
+    .homepage_left_button {
+      margin-top: 15px;
+      font-size: 12px;
+    }
+  
+    .homepage_right {
+      flex: 1;
+      border-right: none;
+      border-bottom: 3px solid red;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      margin: 10px;
+    }
+  
+    .homepage_right > img {
+      width: 80%;
+    }
+  }

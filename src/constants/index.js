@@ -47,7 +47,7 @@ export const TechStakeData2=[
 ]
 
 
-export const navItems = ['About','Tools','Experience','Projects','Contact']
+export const navItems = ['About','Tools','Experience','Projects']
 
 export const NAV_TITLE = '<GS/>'
 
