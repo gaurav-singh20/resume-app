@@ -44,3 +44,9 @@
 .navbar_right > a > p:active{
     background-color: #48404026;
 }
+
+@media (max-width: 768px) {
+    .navbar_right {
+        display: none;
+    }
+}
