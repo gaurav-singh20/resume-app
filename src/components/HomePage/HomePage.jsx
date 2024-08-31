@@ -4,6 +4,8 @@ import githubIcon from '../../assets/githubIcon.png'
 import twitterIcon from '../../assets/twitterIcon.png'
 import linkedinIcon from '../../assets/linkedinIcon.png'
 
+import giphy from '../../assets/giphy.webp'
+
 import { motion } from 'framer-motion';
 
 const container_x = (delay) => ({
@@ -93,7 +95,8 @@ function HomePage(){
             initial='hidden'
             animate='visible'
             className='homepage_right'>
-                <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejhucHpkbWc4c2UyZ214MDFleHg2dWExY2lqb2xlNDIxaXB6dGw0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vLlpbDafjgHystuJ0a/giphy.webp" alt="profilePicture" />
+                {/* <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejhucHpkbWc4c2UyZ214MDFleHg2dWExY2lqb2xlNDIxaXB6dGw0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vLlpbDafjgHystuJ0a/giphy.webp" alt="profilePicture" /> */}
+                <img src={giphy} alt="profilePicture" />
             </motion.div>
         </div>
     );
