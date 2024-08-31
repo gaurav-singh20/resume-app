@@ -93,7 +93,7 @@ function HomePage(){
             initial='hidden'
             animate='visible'
             className='homepage_right'>
-                <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" alt="profilePicture" />
+                <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejhucHpkbWc4c2UyZ214MDFleHg2dWExY2lqb2xlNDIxaXB6dGw0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vLlpbDafjgHystuJ0a/giphy.webp" alt="profilePicture" />
             </motion.div>
         </div>
     );

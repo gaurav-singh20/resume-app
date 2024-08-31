@@ -1,5 +1,5 @@
 .navbar_container {
-  background-color: black;
+  background-color: rgb(32, 14, 48);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,7 +12,7 @@
 .navbar_left{
     font-size: 26px;
     font-weight: 700;
-    color: red;
+    color: rgb(234, 232, 232);
     /* color: beige; */
 }
 
@@ -24,7 +24,7 @@
 
 .navbar_right > a > p{
     margin: 4px 5px;
-    color: red;
+    color: rgb(233, 220, 220);
     padding: 4px 10px;
     font-size: 15px;
     text-decoration: none;

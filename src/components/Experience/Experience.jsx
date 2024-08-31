@@ -23,7 +23,17 @@ const container_y = (d) => ({
         }
     }
 })
-
+const container_x = (d) => ({
+    hidden: { x:-400,opacity: 0 },
+    visible: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            delay: d,
+            duration: 0.5
+        }
+    }
+})
 
 function Experience(){
     const { ref, inView } = useInView({
@@ -43,7 +53,7 @@ function Experience(){
         <div id='experience' className="experience_container">
             <motion.p 
             ref={ref}
-            variants={container_y(0.4)}
+            variants={container_x(0.2)}
             initial='hidden'
             animate={inView ? 'visible' : 'hidden'}
             className="experience_title">
