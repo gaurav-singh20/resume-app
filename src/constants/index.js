@@ -62,7 +62,7 @@ export const projectData = [
             'Utilized Stripe API for payment processing.',
             'Deployed the website using Heroku.'
         ],
-        link: "https://www.templatemonster.com/website-templates/marketkit-multipurpose-ecommerce-html-website-template-203166.html"
+        link: "http://localhost:5173/"
     },
     {
         image: "https://s3u.tmimgcdn.com/u1904510/d090b41b2eaadf789af40407cd22a1fc.jpg",
