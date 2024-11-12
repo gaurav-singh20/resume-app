@@ -12,7 +12,7 @@
 }
 
 .modal_content {
-    background: white;
+    background: rgb(24, 18, 18);
     padding: 20px;
     border-radius: 8px;
     position: relative;
@@ -26,6 +26,9 @@
     right: 10px;
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+    padding: 4px 8px;
 }

@@ -2,6 +2,10 @@ import jsIcon from '../assets/jsIcon.png'
 import cppIcon from '../assets/cppIcon.png'
 import htmlIcon from '../assets/htmlIcon.png'
 import cssIcon from '../assets/cssIcon.png'
+import Project1 from '../assets/Project1.png'
+import Project2 from '../assets/Project2.png'
+import Project3 from '../assets/Project3.png'
+import Project4 from '../assets/Project4.png'
 import { delay } from 'framer-motion'
 
 
@@ -54,47 +58,47 @@ export const NAV_TITLE = '<GS/>'
 
 export const projectData = [
     {
-        image: "https://s3u.tmimgcdn.com/u1904510/d090b41b2eaadf789af40407cd22a1fc.jpg",
-        title: 'Ecomm Website',
+        image: Project1,
+        title: 'Blogging Website',
         sentences: [
             'Built an e-commerce website using React, Redux, and Firebase.',
             'Implemented user authentication, shopping cart, and payment processing.',
             'Utilized Stripe API for payment processing.',
             'Deployed the website using Heroku.'
         ],
-        link: "http://localhost:5173/"
+        link: "https://blogging-frontend-navy.vercel.app/"
     },
     {
-        image: "https://s3u.tmimgcdn.com/u1904510/d090b41b2eaadf789af40407cd22a1fc.jpg",
-        title: 'Ecomm Website',
+        image: Project2,
+        title: 'Tic Tac Toe Game',
         sentences: [
             'Built an e-commerce website using React, Redux, and Firebase.',
             'Implemented user authentication, shopping cart, and payment processing.',
             'Utilized Stripe API for payment processing.',
             'Deployed the website using Heroku.'
         ],
-        link: "https://www.templatemonster.com/website-templates/marketkit-multipurpose-ecommerce-html-website-template-203166.html"
+        link: "https://gs-tic-tac-toe-game.netlify.app/"
     },
     {
-        image: "https://s3u.tmimgcdn.com/u1904510/d090b41b2eaadf789af40407cd22a1fc.jpg",
-        title: 'Ecomm Website',
+        image: Project3,
+        title: 'Youtube Clone',
         sentences: [
             'Built an e-commerce website using React, Redux, and Firebase.',
             'Implemented user authentication, shopping cart, and payment processing.',
             'Utilized Stripe API for payment processing.',
             'Deployed the website using Heroku.'
         ],
-        link: "https://www.templatemonster.com/website-templates/marketkit-multipurpose-ecommerce-html-website-template-203166.html"
+        link: "https://gaurav-singh20.github.io/Youtube-Clone/"
     },
     {
-        image: "https://s3u.tmimgcdn.com/u1904510/d090b41b2eaadf789af40407cd22a1fc.jpg",
-        title: 'Ecomm Website',
+        image: Project4,
+        title: 'Car Rental Website',
         sentences: [
             'Built an e-commerce website using React, Redux, and Firebase.',
             'Implemented user authentication, shopping cart, and payment processing.',
             'Utilized Stripe API for payment processing.',
             'Deployed the website using Heroku.'
         ],
-        link: "https://www.templatemonster.com/website-templates/marketkit-multipurpose-ecommerce-html-website-template-203166.html"
+        link: "https://gaurav-singh20.github.io/Car-Rental-Website/"
     },
 ]

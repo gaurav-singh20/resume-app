@@ -4,16 +4,16 @@
     box-shadow: 0 15px 15px rgb(25, 24, 24);
     padding: 15px;
     width: 480px;
-    transition: width 0.8s, box-shadow 0.8s;
+    transition: transform 0.2s, box-shadow 0.8s;
     background-color: rgba(61, 28, 28, 0.5);
 
 }
 
 .project_box_container:hover{
     /* box-shadow: 0 15px 15px rgb(123, 120, 120); */
-    width: 510px;
-    /* cursor: pointer; */
-    /* transform: scale(1.1); */
+    /* width: 510px; */
+    cursor: pointer;
+    transform: scale(1.01);
 }
 
 .project_box_image_container{
