@@ -1,0 +1,40 @@
+.resume-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .resume-image {
+    width: 40%;
+    height: 900px;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .resume-download-link {
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .resume-download-link:hover {
+    text-decoration: underline;
+  }
+  
+  .resume-back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9d3119;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resume-back-button:hover {
+    background-color: #0056b3;
+  }
+  
